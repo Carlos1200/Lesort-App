@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply block w-full px-4 py-5 bg-primary text-center text-white uppercase text-xl hover:bg-secundary-blue transition-all;
+}
+@tailwind utilities;
