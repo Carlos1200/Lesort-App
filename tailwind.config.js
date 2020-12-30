@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      Oswald: ["Oswald", "sans-serif"],
+      primary: ["Roboto", "sans-serif"],
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
-      primary: "#003346",
+      primary: "#14274e",
 
-      secondary: "#f6f6f6",
+      secondary: "#f1f6f9",
 
-      "secundary-blue": "#277292",
+      "secundary-blue": "#394867",
 
-      gris: "#d3d4ce",
+      gris: "#d2d3c9",
     }),
   },
   variants: {
